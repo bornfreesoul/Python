@@ -1,0 +1,44 @@
+print 'Hi World!'
+#===============================================================================
+# This comment example.
+#===============================================================================
+length = 7
+breadth = 3
+
+area = length * breadth
+print 'Area is', area
+print 'Perimeter is', 2 * (length + breadth)
+
+print "." * 22
+
+#While loop example!
+myName = "Tony Stark"
+running = True
+while running: #While example
+   myInput = raw_input("Please enter the name: ")
+   myName == myInput        
+   if(myInput == "Tony Stark"):
+      print"This is right."
+      running = False
+   if (myInput == "quit"): #Break example
+      break #Break example
+   if(myInput == "Tony"): #Continue example
+      continue #Continue example
+      print("Good name.") #Continue example
+   elif(myInput == "Tony"):
+      print"This is wrong."
+      running = False           
+   else:
+      print "Wrong Input."
+else:
+   print "While loop is done."
+   
+print "." * 22 
+
+i = 10
+for i in range(0,12): #For example
+   print i 
+else:
+   print "Loop ended."
+
+print "." * 22 
