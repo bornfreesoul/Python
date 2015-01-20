@@ -1,0 +1,61 @@
+from symbol import argument
+def myFunction(): # Function example
+   print "This is function call!"
+print myFunction()
+myFunction()
+
+#======================================
+
+def myValue1(a,b): #Function Parameter
+   if(a > b):
+      print "A is greater than B"
+   elif(a < b):
+      print "A is less than B"
+   else:
+      print "Wrong Input!"
+myValue1(3, 7) #Function argument
+
+#======================================
+
+def myFunction1():
+   x = 3
+   print "This is function call.", x
+   x = 5
+   print "This is second call.", x
+print myFunction1()
+ 
+#======================================
+
+def myFunction2(v1, v2 = 3): #Default Argument Values
+   print v1 * v2
+print myFunction2("Iphone7")
+myFunction2("Smartphone", 4)
+
+#======================================
+
+def myFunction3(a = 0, b = 2, c = 3): #Keyword Arguments
+   print ("value of a",a,"value of c",c,"value of d")
+myFunction3()   
+myFunction3( a = 0, b = 5, c = 7)
+
+#======================================
+
+def myFunction4(a,b):
+   if(a > b):
+      return a # Return Statement
+   else:
+      return b
+print myFunction4(5,7)
+
+#======================================
+
+def myFuncation5(a,b):
+   "This is doc function!"
+   if(a > b):
+      return a
+   else:
+      return b
+myFuncation5(15,17)
+print myFuncation5.__doc__   
+
+#======================================
