@@ -1,0 +1,7 @@
+age = input("Please enter your age: ")
+print "You enter", age
+
+#raw_input method takes everything as string. 
+
+money = raw_input("Please enter money amount: ")
+print "You enter", money
