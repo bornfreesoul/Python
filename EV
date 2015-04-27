@@ -1,0 +1,8 @@
+print "*** Welcome to the PM - Earned Value calculator. ***"
+print " There are two objects in this formula."
+print " 1. % of Completed Work; 2. Budget at Completion BAC."
+PCW = float(input(" Enter % of completed work: "))
+BAC = float(input(" Enter budget at completion: "))
+
+EV = (PCW/100) * BAC
+print " The 'Earned Value' result is:",EV
