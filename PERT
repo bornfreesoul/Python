@@ -1,0 +1,9 @@
+print "*** Welcome to the PM-PERT calculator. ***"
+print "There are three objects in this formula."
+print "1. Optimistic duration; 2. Most likely duration; 3. Pessimistic duration."
+OD = float(input("Enter optimistic duration: "))
+MLD = float(input("Enter most likely duration: "))
+PD = float(input("Enter pessimistic duration: "))
+
+PERT = (OD + 4*(MLD) + PD)/6
+print "The PERT result is: ", PERT
