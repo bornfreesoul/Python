@@ -1,0 +1,8 @@
+print "*** Welcome to the PM - Planned Value calculator. ***"
+print " There are two objects in this formula."
+print " 1. Planned % Complete; 2. Budget at Completion BAC."
+PPC = float(input(" Enter planned % complete: "))
+BAC = float(input(" Enter budget at completion: "))
+
+PV = (PPC/100) * BAC
+print " The 'Present Value' result is:",PV
