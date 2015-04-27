@@ -1,0 +1,9 @@
+print "*** Welcome to the PM - Schedule Variance Calculator. ***"
+print " There are two objects in this formula."
+print " 1. Earned Value; 2. Planned Value."
+EV = float(input(" Enter earned value: "))
+PV = float(input(" Enter planned value: "))
+
+SV = EV - PV
+print " The 'Earned Value' result is:",SV
+
