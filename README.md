@@ -10,3 +10,4 @@ All box related number files are basic python information.
 7. Project Management CV(Cost Variance)
 8. Project Management CPI(Cost Performance Index)
 9. Project Management EAC(Estimate At Completion)
+10. Project Management ETC(Estimate To Complete) 
