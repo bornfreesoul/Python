@@ -5,7 +5,7 @@ EV = float(input(" Enter earned value: "))
 PV = float(input(" Enter planned value: "))
 
 SPI = EV / PV
-print " The 'Earned Value' result is:",SPI
+print " The 'Schedule Performance Index' result is:",SPI
 
 if SPI >= 1:
    print " SPI greater than 1 is good."
@@ -13,6 +13,5 @@ else:
    print " SPI less than 1 is 'NOT' fine."
 
 
-#Schedule Performance Index (SPI) = EV/PV
-#SPI greater than 1 is good/favourable (ahead of schedule)
+
 
