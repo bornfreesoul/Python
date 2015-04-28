@@ -5,4 +5,4 @@ PPC = float(input(" Enter planned % complete: "))
 BAC = float(input(" Enter budget at completion: "))
 
 PV = (PPC/100) * BAC
-print " The 'Present Value' result is:",PV
+print " The 'Planned Value' result is:",PV
