@@ -4,6 +4,7 @@ print " 1. Earned Value; 2. Actual Cost."
 EV = float(input(" Enter earned value: "))
 AC = float(input(" Enter actual cost: "))
 
+#Formual.
 CV = EV - AC
 print " The 'Cost Variance' result is:",CV
 
