@@ -1,0 +1,17 @@
+print "*** Welcome to the PM - Cost Variance Calculator. ***"
+print " There are two objects in this formula."
+print " 1. Earned Value; 2. Planned Value."
+EV = float(input(" Enter earned value: "))
+AC = float(input(" Enter actual cost: "))
+
+CV = EV - AC
+print " The 'Earned Value' result is:",CV
+
+if CV >= 0:
+   print " CV greater than 0 is good for project."
+else:
+   print " CV less than 0 is 'NOT' fine for project."
+
+
+
+
