@@ -1,0 +1,16 @@
+print "*** Welcome to the PM - Cost Performance Index Calculator. ***"
+print " There are two objects in this formula."
+print " 1. Earned Value; 2. Actual Cost."
+EV = float(input(" Enter earned value: "))
+AC = float(input(" Enter actual cost: "))
+
+CPI = EV / AC
+print " The 'Cost Performance Index' result is:",CPI
+
+if CPI >= 0:
+   print " CPI greater than 1 is good for project."
+else:
+   print " CPI less than 0 is 'NOT' fine for project."
+
+
+
