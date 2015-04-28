@@ -1,0 +1,10 @@
+print "*** Welcome to the PM - Estimate At Completion Calculator. ***"
+print " There are two objects in this formula."
+print " 1. Budget At Completion; 2. Cost Performance Index."
+BAC = float(input(" Enter budget at completion: "))
+CPI = float(input(" Enter Cost Performance Index: "))
+
+EAC = BAC / CPI
+print " The 'Estimate At Completion' result is:",EAC
+
+
