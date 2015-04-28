@@ -1,0 +1,10 @@
+print "*** Welcome to the PM - Estimate At Completion Calculator. ***"
+print " There are two objects in this formula."
+print " 1. Estimate At Completion; 2. Actual Cost."
+
+EAC = float(input(" Enter estimate at completion: "))
+AC = float(input(" Enter actual cost: "))
+
+ETC = EAC - AC 
+print " The 'Estimate At Completion' result is:",ETC
+
