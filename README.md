@@ -7,3 +7,4 @@ All box related number files are basic python information.
 4. Project Management EV(Earned Value)
 5. Project Management SV(Schedule Variance)
 6. Project Management SPI(Schedule Performance Index)
+7. Project Management CV(Cost Variance)
