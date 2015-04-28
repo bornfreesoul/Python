@@ -9,3 +9,4 @@ All box related number files are basic python information.
 6. Project Management SPI(Schedule Performance Index)
 7. Project Management CV(Cost Variance)
 8. Project Management CPI(Cost Performance Index)
+9. Project Management EAC(Estimate At Completion)
