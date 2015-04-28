@@ -5,5 +5,5 @@ EV = float(input(" Enter earned value: "))
 PV = float(input(" Enter planned value: "))
 
 SV = EV - PV
-print " The 'Earned Value' result is:",SV
+print " The 'Schedule Variance' result is:",SV
 
