@@ -8,3 +8,4 @@ All box related number files are basic python information.
 5. Project Management SV(Schedule Variance)
 6. Project Management SPI(Schedule Performance Index)
 7. Project Management CV(Cost Variance)
+8. Project Management CPI(Cost Performance Index)
