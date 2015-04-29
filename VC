@@ -1,0 +1,14 @@
+print "*** Welcome to the PM - Variance At Completion Calculator. ***"
+print " There are two objects in this formula."
+
+print " 1. Budget At Completion; 2. Estimate At Completion."
+
+BAC = float(input(" Enter budget at completion: "))
+EAC = float(input(" Enter estimate at completion: "))
+
+VC = BAC - EAC
+print " The 'Variance At Completion' result is:",VC
+
+
+
+
