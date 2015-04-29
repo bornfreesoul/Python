@@ -1,0 +1,13 @@
+print "*** Welcome to the PM - Return On Investment Calculator. ***"
+print " There are two objects in this formula."
+
+print " 1. Gain; 2. Cost."
+
+Gain = float(input(" Enter gain: "))
+Cost = float(input(" Enter cost: "))
+
+ROI = (Gain - Cost) / Cost
+print " The 'Return On Investment' result is:",ROI
+
+
+
