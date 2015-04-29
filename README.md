@@ -11,3 +11,4 @@ All box related number files are basic python information.
 8. Project Management CPI(Cost Performance Index)
 9. Project Management EAC(Estimate At Completion)
 10. Project Management ETC(Estimate To Complete) 
+11. Project Management SD(Standard Deviation)
