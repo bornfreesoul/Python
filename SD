@@ -1,0 +1,14 @@
+print "*** Welcome to the PM - Standard Deviation Calculator. ***"
+print " There are two objects in this formula."
+
+print " 1. Pessimistic duration; 2. Optimistic duration."
+
+PD = float(input(" Enter pessimistic duration: "))
+OD = float(input(" Enter optimistic duration: "))
+
+SD = (PD - OD) / 6
+print " The 'Standard Deviation' result is:",SD
+
+
+
+
