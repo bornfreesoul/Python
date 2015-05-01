@@ -1,0 +1,30 @@
+print ("*** Welcome to Body Mass Index Calculator. ***");
+print ("This formula consists of two items.");
+print ("1. Weight; 2. Height");
+
+V1 = float(input("Please enter your weight in kg: "));
+V2 = float(input("Please enter your height in cms: "));
+
+BMI = float(V1 / (V2 * V2)) * 10000;
+
+print "Your BMI is: ", BMI; 
+
+if(BMI <= 18.5):
+   print "You are under weight!";
+elif(BMI >= 18.6 and BMI <= 24.9):
+   print "You are normal weight.";
+elif(BMI >= 25.0 and BMI <= 29.9):
+   print "You are overweight!";
+elif(BMI >= 30.0):
+   print "You are obese!";
+else:
+   print "Wrong input!";
+
+
+
+
+
+
+
+
+
