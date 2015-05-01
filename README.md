@@ -13,3 +13,6 @@
 11. Project Management SD(Standard Deviation)
 12. Project Management VC(Variance At Completion)
 13. Project Management ROI(Return On Investment)
+14. Body Mass Index application.
+
+ReleaseNotes
