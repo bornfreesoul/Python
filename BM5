@@ -1,0 +1,80 @@
+var1 = "String-1";
+var2 = "String-2";
+var3 = var1 +  " " + var2;
+print var3;
+len(var3)
+print len(var3)
+
+word = raw_input("Enter your word: \n"); 
+print word;
+
+if len(word) < 5:
+   print "Your word length is less than 5"
+elif len(word) == 5:
+   print "Your word length is equal to 5"
+   if word == "TonyJ":
+      print "Hi TonyJ!";
+else:
+   print "Your word length is equal or greater than 5"
+
+List = ["One","Two","Three"];
+print List;
+print List[2];
+
+List[2] = "Change";
+print List[2];
+print List;
+
+List.append("Three");
+print List;
+
+List.insert(1, "THREE");
+print List;
+
+List2 = ["Five", "Six"];
+print List2;
+
+List.extend(List2);
+print List;
+
+List.remove("Five");
+print List;
+
+#========================
+
+cars = ["Honda", "Maruti", "Tata", "Fiat","Honda"];
+autos = set(cars);
+print autos;
+
+motorcyles = ["Honda","KWS", "Harley","Trump","Yamaha","BMW"];
+moto = set(motorcyles)
+print moto;
+
+print autos - moto;
+
+#===========================
+
+dict1 = {"Name" : "Tony", "Location" : "USA", "Job":"Technology"};
+print dict1
+print dict1["Location"]
+
+dict1["Favorite Site"] = "Hawaii";
+print dict1
+
+dict1["Hi"] = "Hello";
+print dict1;
+
+del dict1["Hi"];
+print dict1;
+print dict1.keys();
+print "name" in dict1;
+print "Name" in dict1;
+
+#============================
+
+print range(12);
+
+count = 0; 
+while (count < 10):
+   print count , "Count is: ", count;
+   count +=1
