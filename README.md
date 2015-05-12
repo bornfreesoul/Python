@@ -14,5 +14,6 @@
 12. Project Management VC(Variance At Completion)
 13. Project Management ROI(Return On Investment)
 14. Body Mass Index application.
+15. Simple Password Module Ver.1 application. 
 
 ReleaseNotes
