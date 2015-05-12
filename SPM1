@@ -1,0 +1,18 @@
+
+var1 = raw_input("Please enter your password: ");
+
+while (var1 != "Tony" or var1 != "Stark"):
+	
+	if (var1 == "Tony"):
+		print "Tony is the correct password.";
+		break;
+	elif (var1 == "Stark"):
+		print "Stark is the correct password.";
+		break;
+	else:
+		print "Wrong password!";		
+	
+	var1 = raw_input("Please enter your password: ");
+	
+	
+
