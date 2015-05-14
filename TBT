@@ -1,0 +1,71 @@
+import TestModule1
+TestModule1.myName();
+
+class parentClass:
+   var1 = "I am var1.";
+   var2 = "I am var2.";
+
+class childClass(parentClass):
+   pass;
+
+parentObject = parentClass();
+print parentObject.var1;
+
+childObject = childClass();
+print childObject.var2;
+   
+class parentClass1:
+   var1 = "Apple";
+   var2 = "Mango";
+   var3 = TestModule1.myName();
+
+class childClass1(parentClass1):
+   var2 = "Banana";
+   
+parentObject1 = parentClass1;
+print parentObject1.var1;
+print parentObject1.var2;
+print parentObject1.var3;
+
+childObject1 = childClass1;
+print childObject1.var1;
+print childObject1.var2;
+
+class Automobile():
+   var1 = "BMW";
+   var2 = "Honda";
+   var3 = "Mercedez-Benz";
+   
+class Bikes(Automobile):
+   var2 = "Yamaha";
+   
+automobileObject = Automobile();
+print automobileObject.var1;
+print automobileObject.var2;
+print automobileObject.var3;
+
+bikeObject = Bikes();
+print bikeObject.var1;
+print bikeObject.var2;
+print bikeObject.var3;
+
+class dollor():
+   var1 = "Hi, I am dollor class!";
+   
+class pound():
+   var2 = "Hi, I am pound class!";
+
+class rupee(dollor, pound):
+   var3 = "Hi, I am rupee class!";
+   
+rupeeObject = rupee();
+print rupeeObject.var1;
+print rupeeObject.var2;
+print rupeeObject.var3;
+
+myfile = open("C:\Users\Internet\Desktop\APPS\p.text","w")
+myfile.write("This is python file writing test!");
+myfile.close();
+myfile = open("C:\Users\Internet\Desktop\APPS\p.text","r");
+print myfile.read();
+myfile.close();
