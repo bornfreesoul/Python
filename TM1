@@ -1,0 +1,10 @@
+
+def myName():
+   print "Hello, Mr. Tony Stark!";
+print myName();
+
+def myFun1(x):
+   return "Hello " + x +".";
+  
+x = raw_input("Please enter your name: ");
+print myFun1(x);
