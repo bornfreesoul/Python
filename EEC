@@ -1,0 +1,23 @@
+
+print "*** Estimating Effort Calculator. ***\n";
+
+print "E = (B+4M+W)/6; B = Best Case; M = Most Likely Case; B = Worst Case \n";
+
+B = float(input("Please enter the best case, man-hours no: "));
+M = float(input("Please enter the most likely case, man-hours no: "));
+W = float(input("Please enter the worst case, man-hours no: "));
+
+E = (B + 4 * M + W) / 6;
+
+print "The estimated effort man hours are:",E;
+
+SD = (W - B) / 6
+
+print "The standard deviation result man hours are:",SD
+
+SP = E / 8;
+
+print "The number of days a single person takes to complete the work is:", SP;
+ 
+
+
