@@ -15,5 +15,6 @@
 13. Project Management ROI(Return On Investment)
 14. Body Mass Index application.
 15. Simple Password Module Ver.1 application. 
+16. Estimating Effort and Standard deviation application.
 
 ReleaseNotes
