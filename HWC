@@ -1,0 +1,20 @@
+
+print "*** Welcome to the hourly wage calculator ***";
+
+H = float(raw_input("Please enter the number of hrs of working:")); 
+
+W = float(raw_input("Please enter the hourly wage:")); 
+ 
+R = float(H * W);
+         
+print "The total amount of the wage w.r.t hours is:", R; 
+           
+T = float(raw_input("Please enter the govt. tax on the final amount of wage:"));
+
+NW = float(R  * T/100);
+
+A = float(R - NW);
+                
+print "The final amount after tax dedication is:", A;
+           
+
