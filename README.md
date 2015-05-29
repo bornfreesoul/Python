@@ -16,5 +16,6 @@
 14. Body Mass Index application.
 15. Simple Password Module Ver.1 application. 
 16. Estimating Effort and Standard deviation application.
+17. Hourly Wage Calculator Application.
 
 ReleaseNotes
