@@ -1,0 +1,10 @@
+import time
+import webbrowser
+
+Tbreak = 3
+Bcount = 0
+while(Bcount < Tbreak): 
+      time.sleep(1) #The time in seconds, so 1 hour in seconds 3600 seconds.
+      webbrowser.open('https://youtu.be/C1fJRKbVsjc')
+      Bcount = Bcount + 1;
+      print Bcount, time.ctime();      
