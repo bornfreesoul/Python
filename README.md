@@ -17,5 +17,6 @@
 15. Simple Password Module Ver.1 application. 
 16. Estimating Effort and Standard deviation application.
 17. Hourly Wage Calculator Application.
+18. Time break youtube playback application.
 
 ReleaseNotes
