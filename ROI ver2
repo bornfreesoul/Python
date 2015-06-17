@@ -1,0 +1,17 @@
++__author__ = 'testing-mines.blogspot.in'
++
++#ROI = Profit / Investment * 100
++
++print "*** Welcome to the ROI Application ***"
++
++profit = float(raw_input("Please enter the profit: \n"));
++investment = float(raw_input("Please enter the investment: \n"));
++
++ROI = float((profit / investment) * 100);
++
++print "The rate of investment (ROI) is: ", ROI;
++
++import webbrowser
++
++webbrowser.open("http://testing-mines.blogspot.in/");
++webbrowser.open("http://net-mines.blogspot.in/");
