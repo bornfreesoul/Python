@@ -1,0 +1,21 @@
+
+#Apache License Version 2.0
+
+__author__ = 'testing-mines.blogspot.in'
+
+#Break Point Formula = Fixed Cost / (Unit Price - Variable Cost)
+
+print "*** Welcome to the break point value (BPV) application ***"
+
+fc = float(raw_input("Please enter the fixed cost: \n"));
+up = float(raw_input("Please enter the unit price: \n"));
+vc = float(raw_input("Please enter the variable price: \n"));
+
+BPV = float(fc / (up - vc));
+
+print "The break point value is: ", BPV;
+
+import webbrowser
+
+webbrowser.open("http://testing-mines.blogspot.in/");
+webbrowser.open("http://net-mines.blogspot.in/");
