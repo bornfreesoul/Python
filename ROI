@@ -1,13 +1,20 @@
-print "*** Welcome to the PM - Return On Investment Calculator. ***"
-print " There are two objects in this formula."
+#Apache License Version 2.0
 
-print " 1. Gain; 2. Cost."
+__author__ = 'testing-mines.blogspot.in'
 
-Gain = float(input(" Enter gain: "))
-Cost = float(input(" Enter cost: "))
+#ROI = (Profit - Investment) / Investment
 
-ROI = (Gain - Cost) / Cost
-print " The 'Return On Investment' result is:",ROI
+print "*** Welcome to the ROI Application ***"
 
+profit = float(raw_input("Please enter the profit: \n"));
+investment = float(raw_input("Please enter the investment: \n"));
 
+ROI = float((profit - investment)/investment);
+
+print "The rate of investment (ROI) is: ", ROI;
+
+import webbrowser
+
+webbrowser.open("http://testing-mines.blogspot.in/");
+webbrowser.open("http://net-mines.blogspot.in/");
 
