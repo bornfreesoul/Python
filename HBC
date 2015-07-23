@@ -1,0 +1,13 @@
+print ("*** Welcome to the hotel bill calculator application. ***\n")
+
+meal = float(raw_input("Enter the meal amount: "));
+tax = float(raw_input("Enter the tax amount: "));
+tip = float(raw_input("Enter the tip amount: "));
+
+x = meal * tax/100;
+y = meal * tip/100;
+
+meal = meal + x;
+total = meal + y;
+
+print "Bill total:", round(total);
