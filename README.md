@@ -18,5 +18,6 @@
 16. Estimating Effort and Standard deviation application.
 17. Hourly Wage Calculator Application.
 18. Time break youtube playback application.
+19. Hotel bill (tx, tip) application.
 
 ReleaseNotes
