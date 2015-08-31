@@ -19,5 +19,6 @@
 17. Hourly Wage Calculator Application.
 18. Time break youtube playback application.
 19. Hotel bill (tax, tip) application.
+20. Bus fare application.
 
 ReleaseNotes
