@@ -1,0 +1,26 @@
+__author__ = 'www.kingsman.co.in'
+
+print "*** Welcome to the Bus fare Application ***\n"
+
+print "Legends-Information!"
+print "@)Distance parameter: Kilometer(KM)"
+print "@)Time: Hours\n"
+
+#I/P
+dt = float(raw_input("1) Please enter the distance travelled by passenger in approx KM: "))
+ts = float(raw_input("2) Please enter the per hour speed: "))
+fp = float(raw_input("3) Please enter the per km fare price: "))
+rt = float(raw_input("4) Please enter the road tax per km:"))
+
+#Formula
+tr = (dt * rt) #Tax per km
+tf = (dt * fp + tr) # Fare with tax
+tf1 = (dt * fp) # Fare without tax
+tt = (dt/ts)#Travel Time 
+
+#O/P
+print ""
+print "5) Total tax per km on the travelled distance is: ", tr
+print "6) Actual fare cost without tax:", tf1
+print "7) Total approx fare for travelled distance with tax is:", tf
+print "8) Total time consumed in approx hours for the trip:", tt
