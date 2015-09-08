@@ -20,5 +20,6 @@
 18. Time break youtube playback application.
 19. Hotel bill (tax, tip) application.
 20. Bus fare application.
+21. Square Root Application ver 1.0 application.
 
 ReleaseNotes
