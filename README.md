@@ -21,5 +21,6 @@
 19. Hotel bill (tax, tip) application.
 20. Bus fare application.
 21. Square root application ver 1.0.
+22. Kmph To Mph Speed Convert Application.
 
 ReleaseNotes
