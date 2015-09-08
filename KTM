@@ -1,0 +1,22 @@
+# http://kingsman.co.in/
+
+ # Kmph To Mph Speed Convert Application (version 1.0)
+        print (" ")
+        print ("*** Kmph To Mph Speed Convert Application ***")
+        print (" ")
+        while x != 0:
+            print (" ")
+            x = input("Please enter the speed in kmph: ")
+            print (" ")
+            print "Kmph Speed", "\t", "Mph Speed"
+            print "========================="
+            print (" ")
+
+            Mph = x * 0.6214
+            print x, " \t ", Mph
+            print (" ")
+            print ("Do you want to check another speed convertion?") 
+            print ("If yes than any enter any number above 0(0 is exit)")
+            print (" ")
+            x = input("Please enter the speed in kmph: ")
+            print (" ")
