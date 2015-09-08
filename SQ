@@ -1,0 +1,17 @@
+ # www.testing-mines.blogspot.in
+ # http://kingsman.co.in/
+ 
+  # Square Root Application (version 1.0) 
+ 
+        print "*** Square Root Application ***"
+        print (" ")
+        x = input("Please enter the first value of x for sqaure root: ")
+        y = input("Please enter the last value of the number for sqaure root: ")          
+        print (" ")
+        print "Number", "\t", "Its Square"
+        print "=================="
+        
+        print (" ")
+        for num in range(x, y):
+            square = num**2
+            print num , "\t" , square            
