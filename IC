@@ -1,0 +1,18 @@
+#Income calculator application ver 1.0
+        print (" ")
+        print ("*** Income calculator ***")
+        print (" ")
+        revenue = float(input("Please enter the revenue income figures: "))
+        print (" ")
+        cost = float(input("Please enter the cost: "))
+        print (" ")
+        tax = float(input("Please enter the tax: "))
+        print (" ")
+
+        #Formula Used
+        income = revenue - cost
+        final = income - tax
+
+        print "The gross income is:",income
+        print (" ")
+        print "The final income after deduction(tax) is:", final
