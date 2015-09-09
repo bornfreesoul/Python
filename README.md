@@ -22,5 +22,6 @@
 20. Bus fare application.
 21. Square root application ver 1.0.
 22. Kmph To Mph Speed Convert Application.
+23. Income calculator application ver 1.0
 
 ReleaseNotes
