@@ -1,0 +1,14 @@
+##Cost = Fixed * Variable 
+        print (" ")
+        print ("*** Cost calculator ***")
+        print (" ")
+        fixed = float(input("Please enter the fixed cost: "))
+        print (" ")
+        variable = float(input("Please enter the variable cost: "))
+        print (" ")
+        
+        ###Formula Used
+        cost = fixed + variable 
+
+        print "The cost is:",cost
+        print (" ")
