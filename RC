@@ -1,0 +1,14 @@
+#Revenue = Price * Volume
+        print (" ")
+        print ("*** Revenue calculator ***")
+        print (" ")
+        price = float(input("Please enter the price: "))
+        print (" ")
+        volume = float(input("Please enter the volume: "))
+        print (" ")
+        
+        ##Formula Used
+        revenue = price * volume 
+
+        print "The revenue is:",revenue
+        print (" ")
