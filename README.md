@@ -25,5 +25,6 @@
 23. Income calculator application ver 1.0
 24. Cost calcultor application ver 1.0
 25. Revenue calcultor application ver 1.0
+26. Assets calcultor application ver 1.0
 
 ReleaseNotes
