@@ -1,0 +1,14 @@
+ #Assets = Liabilities + Equity 
+        print (" ")
+        print ("*** Assets calculator ***")
+        print (" ")
+        liabilities = float(input("Please enter the liabilities: "))
+        print (" ")
+        equity = float(input("Please enter the equity: "))
+        print (" ")
+        
+        ##Formula Used
+        assets = liabilities + equity  
+
+        print "The assests are:",assets
+        print (" ")
