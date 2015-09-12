@@ -21,10 +21,10 @@
 19. Hotel bill (tax, tip) application.
 20. Bus fare application.
 21. Square root application ver 1.0.
-22. Kmph To Mph Speed Convert Application.
+22. Kmph To Mph speed convert Application.
 23. Income calculator application ver 1.0
-24. Cost calcultor application ver 1.0
-25. Revenue calcultor application ver 1.0
-26. Assets calcultor application ver 1.0
+24. Cost calculator application ver 1.0
+25. Revenue calculator application ver 1.0
+26. Assets calculator application ver 1.0
 
 ReleaseNotes
