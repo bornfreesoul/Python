@@ -1,0 +1,10 @@
+ ##    # Random number genration from 1 to 100 number range.)
+        #for count in range(8):
+        #    number = random.randint(1, 100)
+        #    print number
+
+        
+        ## Random number genration lottery.
+        #print (" ")
+        #print "*** Welconme to the kingsman lottery ***"
+        #print (" ")
