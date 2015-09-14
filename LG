@@ -1,10 +1,19 @@
- ##    # Random number genration from 1 to 100 number range.)
-        #for count in range(8):
-        #    number = random.randint(1, 100)
-        #    print number
+ ### Random lottery / tambola number genration.
+        count = 1
+        while (count != 0):             
+            print (" ")
+            print "*** Welconme to the kingsman lottery / tambola ***"
+            print (" ")
+            x = input("Please enter the range of numbers from 1-100 for lottery / tambola: ")        
+            print " "
+            print "The lottery / tambola sequence numbers are the following:"
 
-        
-        ## Random number genration lottery.
-        #print (" ")
-        #print "*** Welconme to the kingsman lottery ***"
-        #print (" ")
+             # Random number genration from 1 to 100 number range.)
+            for count in range(x):
+                number = random.randint(1, 100)                 
+                print number
+                print " "
+            fo = open('C:\Users\Internet\Desktop\APPS\TheLogFile.txt', 'w')
+            fo.write('%i' %number)
+            fo.close( )
+            print "Do you want to run the app again? (If yes than type any number, except one): "
