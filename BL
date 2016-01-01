@@ -1,1 +1,11 @@
 #Biller
+__author__ = 'Bornfreesoul'
+
+print "*** Welcome to the Bornfreesoul biller application ***"
+
+v1 = input("Please enter the amount: ")
+v2 = input("Please enter the amount: ")
+
+v3 = v1 + v2
+
+print "The sum is:", v3
