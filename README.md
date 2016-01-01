@@ -26,5 +26,6 @@
 24. Cost calculator application ver 1.0
 25. Revenue calculator application ver 1.0
 26. Assets calculator application ver 1.0
+27. Biller application ver 1.0
 
 ReleaseNotes
