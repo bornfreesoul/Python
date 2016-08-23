@@ -1,0 +1,70 @@
+'''
+Created on Aug 23, 2016
+
+@author: Testing-mines.blogspot.in
+'''
+print ("Hello World!")
+
+#Operative execution order: PEMDAS
+
+# Multiplication in Python
+x = 7
+y = 5
+z = x * y
+print ("The value of z is:", z) 
+
+# Addition in Python
+a = 7
+b = 5
+c = a + b
+print ("The value of c is:", c) 
+
+#Variable 'tex' and 'hela' are interchangeable 
+tex = 200
+print (tex) 
+hela = tex
+print (hela)
+
+#Variable naming convention
+number_of_apples = 100
+print (number_of_apples)
+
+#String Variables
+abc = "ABC are the first letters!"
+print (abc)
+
+#Multi-line String Variables
+xyz = """Hello, dear!
+How are you their?"""
+print (xyz)
+
+#Multi-line String Variables 2
+var1 = """Hello their! couldn't, shouldn't and wouldn't are not part of my vocabulary."""
+print (var1)
+
+#embed values in a string using %s
+myVar2 = 200000000
+myAnnouncement = "My Wealth is %s crores."
+print (myAnnouncement % myVar2)
+
+#Embed numeric values in a string using %s 
+myVar3 = "In binary system %s number say hello to %s number."
+print (myVar3 % (0, 1))
+
+#Multiply Strings
+print ('q' * 50)
+
+#List in Python
+mylist1 =  ['name1','name2','name3','name4','name5']
+print (mylist1)
+print (mylist1[2])
+mylist1.append([2])
+print (mylist1)
+del mylist1[5]
+print (mylist1)
+mylist1.append(5)
+print (mylist1)
+mylist1.remove(5)
+print (mylist1)
+
+
