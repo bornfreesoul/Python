@@ -1,0 +1,47 @@
+'''
+Created on Aug 24, 2016
+
+@author: testing-mines.blogspot.in
+'''
+import turtle
+
+#Double quote sentence 
+myVar1 = ("""Hi I like "Python!" coding.""")
+print (myVar1)
+
+myVar2 = ("""Hi I like 'iPython!' coding.""")
+print (myVar2)
+
+#Raw String Example
+print (r"My\name is bug!") #E1 by using 'r'
+print ("My\name is bug!") #E2
+
+
+t = turtle.Pen()
+t.forward(50)
+t.left(90)
+t.left(90)
+
+age = 36
+if (age > 39):
+    print ("You are reaching 40!")
+else:
+    print ("Age is under 39")
+    
+name1 = "bornfreesoul"
+if (name1 == "bornfreesoul"):
+    print ("Your name is bornfreesoul.")
+else:
+    print ("Wrong name!")
+    
+name2 = "bug"
+if (name2 == "bornfreesoul"):
+    print ("Your name is bornfreesoul.")
+elif (name2 == "ornfreesoul"):
+    print ("Wrong name!")
+elif (name2 == "rnfreesoul"):
+    print ("Wrong name!")
+elif (name2 == "bug"):
+    print ("Right name is bug.")
+else:
+    print ("Wrong input")
