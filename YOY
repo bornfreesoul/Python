@@ -1,0 +1,21 @@
+#Apache License Version 2.0
+
+__author__ = 'testing-mines.blogspot.in'
+
+#YOY = (CurrentYear - LastYear)/CurrentYear)
+
+print "*** Welcome to the YOY Application ***"
+print " "; 
+CurrentYear = float(raw_input("Please enter the current year growth: \n"));
+LastYear = float(raw_input("Please enter the last year growth: \n"));
+
+YOY = float((CurrentYear - LastYear)/CurrentYear);
+
+YOY2 = YOY * 100
+
+print "The year over year (YOY) is: ", YOY2;
+
+import webbrowser
+
+webbrowser.open("http://testing-mines.blogspot.in/");
+webbrowser.open("http://net-mines.blogspot.in/");
