@@ -11,10 +11,11 @@ investment = float(raw_input("Please enter the investment: \n"));
 
 ROI = float((profit - investment)/investment);
 
-print "The rate of investment (ROI) is: ", ROI;
+ROI2 = ROI * 100
+
+print "The rate of investment (ROI) is: ", ROI2;
 
 import webbrowser
 
 webbrowser.open("http://testing-mines.blogspot.in/");
 webbrowser.open("http://net-mines.blogspot.in/");
-
