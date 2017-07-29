@@ -12,7 +12,7 @@
 10. Project Management ETC(Estimate To Complete) 
 11. Project Management SD(Standard Deviation)
 12. Project Management VC(Variance At Completion)
-13. Project Management ROI(Return On Investment)
+13. Project Management ROI(Return On Investment) Ver 1.0; Ver 2.0
 14. Body Mass Index application.
 15. Simple Password Module Ver.1 application. 
 16. Estimating Effort and Standard deviation application.
@@ -27,5 +27,6 @@
 25. Revenue calculator application ver 1.0
 26. Assets calculator application ver 1.0
 27. Biller application ver 1.0
+28. Year Over Year Growth 1.0
 
 ReleaseNotes
