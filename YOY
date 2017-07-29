@@ -5,7 +5,9 @@ __author__ = 'testing-mines.blogspot.in'
 #YOY = (CurrentYear - LastYear)/CurrentYear)
 
 print "*** Welcome to the YOY Application ***"
+
 print " "; 
+
 CurrentYear = float(raw_input("Please enter the current year growth: \n"));
 LastYear = float(raw_input("Please enter the last year growth: \n"));
 
