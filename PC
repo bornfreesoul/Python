@@ -1,0 +1,23 @@
+#Apache License Version 2.0
+
+__author__ = 'testing-mines.blogspot.in'
+
+#YOY = (CurrentYear - LastYear)/CurrentYear)
+
+print "*** Welcome to the PC Application ***"
+print " "; 
+
+AmountValue = float(raw_input("Please enter the amount value: \n"));
+Percentage = float(raw_input("Please enter the percentage value: \n"));
+
+PCT = float(AmountValue / 100);
+
+PC = AmountValue + PCT * Percentage
+
+print "The final value is after adding % amount is: ", PC;
+
+import webbrowser
+
+webbrowser.open("http://testing-mines.blogspot.in/");
+webbrowser.open("http://net-mines.blogspot.in/");
+
