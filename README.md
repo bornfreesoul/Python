@@ -28,5 +28,6 @@
 26. Assets calculator application ver 1.0
 27. Biller application ver 1.0
 28. Year Over Year Growth 1.0
+29. Percentage App calculator 1.0 
 
 ReleaseNotes
