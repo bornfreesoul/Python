@@ -12,9 +12,15 @@ Percentage = float(raw_input("Please enter the percentage value: \n"));
 
 PCT = float(AmountValue / 100);
 
-PC = AmountValue + PCT * Percentage
+print " "; 
 
-print "The final value is after adding % amount is: ", PC;
+PC = PCT * Percentage
+print "The % amount is: \n", PC;
+
+print " "; 
+
+FinalAmount = AmountValue + PC;
+print "The final amount value after adding the % value amount is: \n", FinalAmount;
 
 import webbrowser
 
